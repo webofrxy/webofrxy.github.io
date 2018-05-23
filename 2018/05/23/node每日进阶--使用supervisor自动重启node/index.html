@@ -14,7 +14,7 @@
   
 
 
-<html class="theme-next muse use-motion" lang="">
+<html class="theme-next gemini use-motion" lang="">
 <head>
   <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -84,7 +84,7 @@
   var NexT = window.NexT || {};
   var CONFIG = {
     root: '/blog/',
-    scheme: 'Muse',
+    scheme: 'Gemini',
     version: '6.3.0',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
     fancybox: false,
@@ -109,8 +109,9 @@
 
 
   <meta name="description" content="本文中supervisor的安装和使用基于node和express项目  node项目中更改文件后自动重启是非常重要的一步，而node本身必须手动重启，这种情况下就要使用工具了，常见的工具有supervisor，nodemon和pm2,今天介绍下supervisor的使用 第一步：安装supervisor1npm install -g supervisor  第二步：启动应用1superviso">
+<meta name="keywords" content="node">
 <meta property="og:type" content="article">
-<meta property="og:title" content="破晓月圆">
+<meta property="og:title" content="使用supervisor自动重启node">
 <meta property="og:url" content="http://renxiaoyuan.gitee.io/2018/05/23/node每日进阶--使用supervisor自动重启node/index.html">
 <meta property="og:site_name" content="破晓月圆">
 <meta property="og:description" content="本文中supervisor的安装和使用基于node和express项目  node项目中更改文件后自动重启是非常重要的一步，而node本身必须手动重启，这种情况下就要使用工具了，常见的工具有supervisor，nodemon和pm2,今天介绍下supervisor的使用 第一步：安装supervisor1npm install -g supervisor  第二步：启动应用1superviso">
@@ -118,9 +119,9 @@
 <meta property="og:image" content="https://img-blog.csdn.net/20180522142540948?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlYm9mcnh5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70">
 <meta property="og:image" content="https://img-blog.csdn.net/20180522142555249?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlYm9mcnh5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70">
 <meta property="og:image" content="https://img-blog.csdn.net/20180522142606582?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlYm9mcnh5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70">
-<meta property="og:updated_time" content="2018-05-23T05:59:47.201Z">
+<meta property="og:updated_time" content="2018-05-23T06:13:45.171Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="破晓月圆">
+<meta name="twitter:title" content="使用supervisor自动重启node">
 <meta name="twitter:description" content="本文中supervisor的安装和使用基于node和express项目  node项目中更改文件后自动重启是非常重要的一步，而node本身必须手动重启，这种情况下就要使用工具了，常见的工具有supervisor，nodemon和pm2,今天介绍下supervisor的使用 第一步：安装supervisor1npm install -g supervisor  第二步：启动应用1superviso">
 <meta name="twitter:image" content="https://img-blog.csdn.net/20180522142540948?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlYm9mcnh5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70">
 
@@ -139,7 +140,7 @@
   };
 </script>
 
-  <title> | 破晓月圆</title>
+  <title>使用supervisor自动重启node | 破晓月圆</title>
   
 
 
@@ -242,9 +243,6 @@
   
 
   
-    
-
-  
 
   
 </nav>
@@ -264,6 +262,9 @@
     <main id="main" class="main">
       <div class="main-inner">
         <div class="content-wrap">
+          
+            
+
           
           <div id="content" class="content">
             
@@ -301,7 +302,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
+          <h1 class="post-title" itemprop="name headline">使用supervisor自动重启node
               
             
           </h1>
@@ -326,7 +327,7 @@
                 
               
 
-              <time title="Post created: 2018-05-23 13:59:40 / Updated at: 13:59:47" itemprop="dateCreated datePublished" datetime="2018-05-23T13:59:40+08:00">2018-05-23</time>
+              <time title="Post created: 2018-05-23 13:59:40 / Updated at: 14:13:45" itemprop="dateCreated datePublished" datetime="2018-05-23T13:59:40+08:00">2018-05-23</time>
             
 
             
@@ -390,6 +391,12 @@
     
 
     <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/blog/tags/node/" rel="tag"># node</a>
+          
+        </div>
       
 
       
@@ -499,7 +506,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">1</span>
+                      
+                    
+                    <span class="site-state-item-count">2</span>
                     <span class="site-state-item-name">Tags</span>
                   
                 </div>
@@ -577,7 +586,7 @@
 
 
 
-  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/theme-next/hexo-theme-next">NexT.Muse</a> v6.3.0</div>
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/theme-next/hexo-theme-next">NexT.Gemini</a> v6.3.0</div>
 
 
 
@@ -666,6 +675,13 @@
 
   
   
+
+
+  <script type="text/javascript" src="/blog/js/src/affix.js?v=6.3.0"></script>
+
+  <script type="text/javascript" src="/blog/js/src/schemes/pisces.js?v=6.3.0"></script>
+
+
 
   
   <script type="text/javascript" src="/blog/js/src/scrollspy.js?v=6.3.0"></script>
