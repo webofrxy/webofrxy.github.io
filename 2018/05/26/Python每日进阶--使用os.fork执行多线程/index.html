@@ -108,22 +108,25 @@
 
 
 
-  <meta name="keywords" content="php,thinkphp,架构">
+  <meta name="description" content="12345678910import os, timeprint(&amp;quot;before forking my pid &amp;quot;, os.getpid())if os.fork():	print(&amp;quot;parent pid:&amp;quot;, os.getpid())else:	print(&amp;quot;child pid: &amp;quot;, os.getpid())time.sleep(2)p">
+<meta name="keywords" content="python">
 <meta property="og:type" content="article">
-<meta property="og:title" content="tpshop每日进阶--了解tp5应用架构">
-<meta property="og:url" content="http://renxiaoyuan.gitee.io/2018/05/24/tpshop每日进阶--了解应用架构/index.html">
+<meta property="og:title" content="Python每日进阶--使用os.fork执行多线程">
+<meta property="og:url" content="http://renxiaoyuan.gitee.io/2018/05/26/Python每日进阶--使用os.fork执行多线程/index.html">
 <meta property="og:site_name" content="破晓月圆">
+<meta property="og:description" content="12345678910import os, timeprint(&amp;quot;before forking my pid &amp;quot;, os.getpid())if os.fork():	print(&amp;quot;parent pid:&amp;quot;, os.getpid())else:	print(&amp;quot;child pid: &amp;quot;, os.getpid())time.sleep(2)p">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-05-26T02:36:06.476Z">
+<meta property="og:updated_time" content="2018-05-26T02:36:01.787Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="tpshop每日进阶--了解tp5应用架构">
+<meta name="twitter:title" content="Python每日进阶--使用os.fork执行多线程">
+<meta name="twitter:description" content="12345678910import os, timeprint(&amp;quot;before forking my pid &amp;quot;, os.getpid())if os.fork():	print(&amp;quot;parent pid:&amp;quot;, os.getpid())else:	print(&amp;quot;child pid: &amp;quot;, os.getpid())time.sleep(2)p">
 
 
 
 
 
 
-  <link rel="canonical" href="http://renxiaoyuan.gitee.io/2018/05/24/tpshop每日进阶--了解应用架构/"/>
+  <link rel="canonical" href="http://renxiaoyuan.gitee.io/2018/05/26/Python每日进阶--使用os.fork执行多线程/"/>
 
 
 
@@ -133,7 +136,7 @@
   };
 </script>
 
-  <title>tpshop每日进阶--了解tp5应用架构 | 破晓月圆</title>
+  <title>Python每日进阶--使用os.fork执行多线程 | 破晓月圆</title>
   
 
 
@@ -278,7 +281,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://renxiaoyuan.gitee.io/blog/2018/05/24/tpshop每日进阶--了解应用架构/">
+    <link itemprop="mainEntityOfPage" href="http://renxiaoyuan.gitee.io/blog/2018/05/26/Python每日进阶--使用os.fork执行多线程/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="破晓月圆">
@@ -295,7 +298,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">tpshop每日进阶--了解tp5应用架构
+          <h1 class="post-title" itemprop="name headline">Python每日进阶--使用os.fork执行多线程
               
             
           </h1>
@@ -320,24 +323,12 @@
                 
               
 
-              <time title="Created: 2018-05-24 22:58:58" itemprop="dateCreated datePublished" datetime="2018-05-24T22:58:58+08:00">2018-05-24</time>
+              <time title="Created: 2018-05-26 10:33:20 / Modified: 10:36:01" itemprop="dateCreated datePublished" datetime="2018-05-26T10:33:20+08:00">2018-05-26</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-05-26 10:36:06" itemprop="dateModified" datetime="2018-05-26T10:36:06+08:00">2018-05-26</time>
               
             
           </span>
@@ -370,7 +361,7 @@
       
 
       
-        
+        <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">import os, time</span><br><span class="line"></span><br><span class="line">print(&quot;before forking my pid &quot;, os.getpid())</span><br><span class="line">if os.fork():</span><br><span class="line">	print(&quot;parent pid:&quot;, os.getpid())</span><br><span class="line">else:</span><br><span class="line">	print(&quot;child pid: &quot;, os.getpid())</span><br><span class="line"></span><br><span class="line">time.sleep(2)</span><br><span class="line">print(&quot;fork is over&quot;)</span><br></pre></td></tr></table></figure>
       
     </div>
 
@@ -390,11 +381,7 @@
       
         <div class="post-tags">
           
-            <a href="/blog/tags/php/" rel="tag"># php</a>
-          
-            <a href="/blog/tags/thinkphp/" rel="tag"># thinkphp</a>
-          
-            <a href="/blog/tags/架构/" rel="tag"># 架构</a>
+            <a href="/blog/tags/python/" rel="tag"># python</a>
           
         </div>
       
@@ -407,8 +394,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/blog/2018/05/24/如何学习？/" rel="next" title="如何学习">
-                <i class="fa fa-chevron-left"></i> 如何学习
+              <a href="/blog/2018/05/25/Python每日进阶--使用sys和getopt输出从command获取的参数/" rel="next" title="Python每日进阶--使用sys和getopt输出从command获取的参数">
+                <i class="fa fa-chevron-left"></i> Python每日进阶--使用sys和getopt输出从command获取的参数
               </a>
             
           </div>
@@ -416,10 +403,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/blog/2018/05/25/Python每日进阶--使用sys和getopt输出从command获取的参数/" rel="prev" title="Python每日进阶--使用sys和getopt输出从command获取的参数">
-                Python每日进阶--使用sys和getopt输出从command获取的参数 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
