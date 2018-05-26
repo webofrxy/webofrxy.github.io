@@ -108,25 +108,27 @@
 
 
 
-  <meta name="description" content="首先看下网友的观点：房价应该不会降，一线城市买房越来越困难！看病应该会越贵，毕竟生命和健康始终重要！教育投资会更多，家长都希望孩子好好学习！贫富差距会更大，因为阶层之间越来越固化！单身人数会增加，人的各方面压力都比较大！老龄化问题严重，毕竟广场舞队伍逐渐庞大！环保问题不好说，污染和雾霾不知是否好转！税收应该会增加，因为政府的养老金问题多！人口应该不增加，毕竟多养个孩子成本太大！工作愈发不好找，智能">
-<meta name="keywords" content="生活">
+  <meta name="description" content="这篇文章用来简单说明sys.argv和getopt的用法   getopt.getopt 方法 getopt.getopt 方法用于解析命令行参数列表 语法格式：getopt.getopt(args, options[, long_options]) args: 要解析的命令行参数列表 options: 以字符串的格式定义，options后的冒号(:)表示该选项必须有附加的参数，不带冒号表示该选">
+<meta name="keywords" content="python">
 <meta property="og:type" content="article">
-<meta property="og:title" content="关于五年后人们生活状况的思考">
-<meta property="og:url" content="http://renxiaoyuan.gitee.io/2018/05/26/关于五年后生活状况的思考/index.html">
+<meta property="og:title" content="Python每日进阶--使用sys和getopt输出从command获取的参数">
+<meta property="og:url" content="http://renxiaoyuan.gitee.io/Python每日进阶--使用sys和getopt输出从command获取的参数.html">
 <meta property="og:site_name" content="破晓月圆">
-<meta property="og:description" content="首先看下网友的观点：房价应该不会降，一线城市买房越来越困难！看病应该会越贵，毕竟生命和健康始终重要！教育投资会更多，家长都希望孩子好好学习！贫富差距会更大，因为阶层之间越来越固化！单身人数会增加，人的各方面压力都比较大！老龄化问题严重，毕竟广场舞队伍逐渐庞大！环保问题不好说，污染和雾霾不知是否好转！税收应该会增加，因为政府的养老金问题多！人口应该不增加，毕竟多养个孩子成本太大！工作愈发不好找，智能">
+<meta property="og:description" content="这篇文章用来简单说明sys.argv和getopt的用法   getopt.getopt 方法 getopt.getopt 方法用于解析命令行参数列表 语法格式：getopt.getopt(args, options[, long_options]) args: 要解析的命令行参数列表 options: 以字符串的格式定义，options后的冒号(:)表示该选项必须有附加的参数，不带冒号表示该选">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-05-26T08:08:51.501Z">
+<meta property="og:image" content="https://img-blog.csdn.net/20180525102732594?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlYm9mcnh5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70">
+<meta property="og:updated_time" content="2018-05-25T02:54:45.106Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="关于五年后人们生活状况的思考">
-<meta name="twitter:description" content="首先看下网友的观点：房价应该不会降，一线城市买房越来越困难！看病应该会越贵，毕竟生命和健康始终重要！教育投资会更多，家长都希望孩子好好学习！贫富差距会更大，因为阶层之间越来越固化！单身人数会增加，人的各方面压力都比较大！老龄化问题严重，毕竟广场舞队伍逐渐庞大！环保问题不好说，污染和雾霾不知是否好转！税收应该会增加，因为政府的养老金问题多！人口应该不增加，毕竟多养个孩子成本太大！工作愈发不好找，智能">
+<meta name="twitter:title" content="Python每日进阶--使用sys和getopt输出从command获取的参数">
+<meta name="twitter:description" content="这篇文章用来简单说明sys.argv和getopt的用法   getopt.getopt 方法 getopt.getopt 方法用于解析命令行参数列表 语法格式：getopt.getopt(args, options[, long_options]) args: 要解析的命令行参数列表 options: 以字符串的格式定义，options后的冒号(:)表示该选项必须有附加的参数，不带冒号表示该选">
+<meta name="twitter:image" content="https://img-blog.csdn.net/20180525102732594?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlYm9mcnh5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70">
 
 
 
 
 
 
-  <link rel="canonical" href="http://renxiaoyuan.gitee.io/2018/05/26/关于五年后生活状况的思考/"/>
+  <link rel="canonical" href="http://renxiaoyuan.gitee.io/Python每日进阶--使用sys和getopt输出从command获取的参数.html"/>
 
 
 
@@ -136,7 +138,7 @@
   };
 </script>
 
-  <title>关于五年后人们生活状况的思考 | 破晓月圆</title>
+  <title>Python每日进阶--使用sys和getopt输出从command获取的参数 | 破晓月圆</title>
   
 
 
@@ -281,7 +283,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://renxiaoyuan.gitee.io/blog/2018/05/26/关于五年后生活状况的思考/">
+    <link itemprop="mainEntityOfPage" href="http://renxiaoyuan.gitee.io/blog/Python每日进阶--使用sys和getopt输出从command获取的参数.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="破晓月圆">
@@ -298,7 +300,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">关于五年后人们生活状况的思考
+          <h1 class="post-title" itemprop="name headline">Python每日进阶--使用sys和getopt输出从command获取的参数
               
             
           </h1>
@@ -323,7 +325,7 @@
                 
               
 
-              <time title="Post created: 2018-05-26 14:54:27 / Updated at: 16:08:51" itemprop="dateCreated datePublished" datetime="2018-05-26T14:54:27+08:00">2018-05-26</time>
+              <time title="Post created: 2018-05-25 10:44:07 / Updated at: 10:54:45" itemprop="dateCreated datePublished" datetime="2018-05-25T10:44:07+08:00">2018-05-25</time>
             
 
             
@@ -361,14 +363,24 @@
       
 
       
-        <h4 id="首先看下网友的观点："><a href="#首先看下网友的观点：" class="headerlink" title="首先看下网友的观点："></a>首先看下网友的观点：</h4><p>房价应该不会降，一线城市买房越来越困难！<br>看病应该会越贵，毕竟生命和健康始终重要！<br>教育投资会更多，家长都希望孩子好好学习！<br>贫富差距会更大，因为阶层之间越来越固化！<br>单身人数会增加，人的各方面压力都比较大！<br>老龄化问题严重，毕竟广场舞队伍逐渐庞大！<br>环保问题不好说，污染和雾霾不知是否好转！<br>税收应该会增加，因为政府的养老金问题多！<br>人口应该不增加，毕竟多养个孩子成本太大！<br>工作愈发不好找，智能机器人逐渐代替人力！</p>
-<h4 id="再来谈下我的分析"><a href="#再来谈下我的分析" class="headerlink" title="再来谈下我的分析"></a>再来谈下我的分析</h4><ol>
-<li>一线城市房价降低的可能性几乎为零，如果想要你的孩子不被社会抛弃，那你就需要提前关注准一线甚至心仪的二线城市的房子。五年前房价没跌，五年后房价也不会跌。</li>
-<li>五年后智能设备会再次升级，只能设备逐渐普及到生活的细节处，例如，房屋的门锁，冰箱，洗衣机，电视的智能化程度会越来越高。AI和AR在生活中会更加普及，手机等智能设备会变的更加<br>便携，掌握核心技术的公司对于社会的影响会越来越大，就像头号玩家那样。</li>
-<li>五年后国家对于互联网内容的控制会越来越全面，正能量的内容会越来越多，原创内容的价值会越来越高，中国的媒体盈利模式会像美国的大型杂志社靠近，<br>人们对于知识付费的接受程度也会变高，各种网上的订阅杂志会逐渐普及。人们对于学习型，专业型的网站需求会增长，网页的阅读效果会和APP体验效果相似，在5G和pwa技术的推动下，web将会逐渐<br>取代APP成为人们浏览和购物的首选。</li>
-<li>以语音技术为主打的微信将会被以视频技术为主打的社交类APP取代，人们的沟通方式将会从发送语音变为发送视频，购物类的网站将会以视频为商品的主要推荐方式，用户购物体验将会变的更好，<br>个性化导购会借助AR技术实现，人们可以通过各种智能设备上的摄像头实现上网购物和社交，不需要再拿着手机在房间里走来走去了。所以你未来的定位应该是一名具有五到十年经验的服饰搭配设计师，你可以借助AR，AI和大数据为顾客提供个性化的服装建议，你的网站可以提供上千种不同的服装搭配和品牌推荐，你可以让顾客通过AR技术实时看到自己的装扮，并提供付费的VIP咨询服务。</li>
-<li>未来的阶层固化会让财富逐渐集中到中产阶级以上，就像《饥饿游戏》中展现的那样，社会底层使用着高科技的产品，却被掌握高科技的公司剥削着。</li>
+        <blockquote>
+<p>这篇文章用来简单说明sys.argv和getopt的用法</p>
+</blockquote>
+<ol>
+<li>getopt.getopt 方法<ul>
+<li>getopt.getopt 方法用于解析命令行参数列表</li>
+<li>语法格式：getopt.getopt(args, options[, long_options])</li>
+<li>args: 要解析的命令行参数列表</li>
+<li>options: 以字符串的格式定义，options后的冒号(:)表示该选项必须有附加的参数，不带冒号表示该选项不附加参数</li>
+<li>long_options: 以列表的格式定义，long_options 后的等号(=)表示如果设置该选项，必须有附加的参数，否则就不附加参数</li>
+</ul>
+</li>
+<li>getopt.GetoptError在没有找到参数列表，或选项的需要的参数为空时会触发该异常</li>
+<li>sys.argv 是命令行参数列表,sys.argv[0] 表示脚本名</li>
+<li>sys.exit()会引发一个异常：SystemExit，如果这个异常没有被捕获，那么python解释器将会退出。如果有捕获此异常的代码，那么这些代码还是会执行。捕获这个异常可以做一些额外的清理工作。0为正常退出，其他数值（1-127）为不正常，可抛异常事件供捕获<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">#coding=utf-8</span><br><span class="line"></span><br><span class="line">import sys, getopt</span><br><span class="line"></span><br><span class="line">def getArgs(argv):</span><br><span class="line"> 	try: </span><br><span class="line"> 		opts, args = getopt.getopt(argv, &quot;hg:d&quot;)</span><br><span class="line"> 		print(&quot;opt&apos;s type =&gt; &quot;, type(opts), opts)</span><br><span class="line"> 		print(&quot;args&apos;s type =&gt; &quot;, type(args), args)</span><br><span class="line"></span><br><span class="line"> 		for opt, arg in opts:</span><br><span class="line"> 			print(opt, arg)</span><br><span class="line"> 	except getopt.GetoptError: </span><br><span class="line"> 		sys.exit(2)</span><br><span class="line">getArgs(sys.argv[1:])</span><br><span class="line">print(sys.argv[0])</span><br><span class="line">print(sys.argv[1:])</span><br></pre></td></tr></table></figure>
+</li>
 </ol>
+<p><img src="https://img-blog.csdn.net/20180525102732594?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlYm9mcnh5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
 
       
     </div>
@@ -389,7 +401,7 @@
       
         <div class="post-tags">
           
-            <a href="/blog/tags/生活/" rel="tag"># 生活</a>
+            <a href="/blog/tags/python/" rel="tag"># python</a>
           
         </div>
       
@@ -402,8 +414,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/blog/2018/05/26/Python每日进阶--使用os.fork执行多线程/" rel="next" title="Python每日进阶--使用os.fork执行多线程">
-                <i class="fa fa-chevron-left"></i> Python每日进阶--使用os.fork执行多线程
+              <a href="/blog/tpshop每日进阶--了解应用架构.html" rel="next" title="tpshop每日进阶--了解tp5应用架构">
+                <i class="fa fa-chevron-left"></i> tpshop每日进阶--了解tp5应用架构
               </a>
             
           </div>
@@ -411,6 +423,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/blog/Python每日进阶--使用os.fork执行多线程.html" rel="prev" title="Python每日进阶--使用os.fork执行多线程">
+                Python每日进阶--使用os.fork执行多线程 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -459,17 +475,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            Inhaltsverzeichnis
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            Übersicht
-          </li>
-        </ul>
-      
 
-      <section class="site-overview-wrap sidebar-panel">
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -541,22 +548,6 @@
         </div>
       </section>
 
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#首先看下网友的观点："><span class="nav-number">1.</span> <span class="nav-text">首先看下网友的观点：</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#再来谈下我的分析"><span class="nav-number">2.</span> <span class="nav-text">再来谈下我的分析</span></a></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
       
 
       

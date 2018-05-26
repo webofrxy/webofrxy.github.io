@@ -108,27 +108,25 @@
 
 
 
-  <meta name="description" content="这篇文章用来简单说明sys.argv和getopt的用法   getopt.getopt 方法 getopt.getopt 方法用于解析命令行参数列表 语法格式：getopt.getopt(args, options[, long_options]) args: 要解析的命令行参数列表 options: 以字符串的格式定义，options后的冒号(:)表示该选项必须有附加的参数，不带冒号表示该选">
+  <meta name="description" content="罗列从某个文件夹下的某一类文件，可以使用通配符*        path：路径        fun：处理函数        suffix：匹配指定规则的文件1234567891011121314151617181920212223242526#coding=utf-8# 利用os.walk()方法遍历目录import osimport fnmatchimport timepath = &amp;apos">
 <meta name="keywords" content="python">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Python每日进阶--使用sys和getopt输出从command获取的参数">
-<meta property="og:url" content="http://renxiaoyuan.gitee.io/2018/05/25/Python每日进阶--使用sys和getopt输出从command获取的参数/index.html">
+<meta property="og:title" content="Python每日进阶--使用os.walk()方法获取文件目录">
+<meta property="og:url" content="http://renxiaoyuan.gitee.io/Python每日进阶--使用os.walk()方法获取文件目录.html">
 <meta property="og:site_name" content="破晓月圆">
-<meta property="og:description" content="这篇文章用来简单说明sys.argv和getopt的用法   getopt.getopt 方法 getopt.getopt 方法用于解析命令行参数列表 语法格式：getopt.getopt(args, options[, long_options]) args: 要解析的命令行参数列表 options: 以字符串的格式定义，options后的冒号(:)表示该选项必须有附加的参数，不带冒号表示该选">
+<meta property="og:description" content="罗列从某个文件夹下的某一类文件，可以使用通配符*        path：路径        fun：处理函数        suffix：匹配指定规则的文件1234567891011121314151617181920212223242526#coding=utf-8# 利用os.walk()方法遍历目录import osimport fnmatchimport timepath = &amp;apos">
 <meta property="og:locale" content="default">
-<meta property="og:image" content="https://img-blog.csdn.net/20180525102732594?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlYm9mcnh5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70">
-<meta property="og:updated_time" content="2018-05-25T02:54:45.106Z">
+<meta property="og:updated_time" content="2018-05-24T02:57:00.270Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Python每日进阶--使用sys和getopt输出从command获取的参数">
-<meta name="twitter:description" content="这篇文章用来简单说明sys.argv和getopt的用法   getopt.getopt 方法 getopt.getopt 方法用于解析命令行参数列表 语法格式：getopt.getopt(args, options[, long_options]) args: 要解析的命令行参数列表 options: 以字符串的格式定义，options后的冒号(:)表示该选项必须有附加的参数，不带冒号表示该选">
-<meta name="twitter:image" content="https://img-blog.csdn.net/20180525102732594?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlYm9mcnh5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70">
+<meta name="twitter:title" content="Python每日进阶--使用os.walk()方法获取文件目录">
+<meta name="twitter:description" content="罗列从某个文件夹下的某一类文件，可以使用通配符*        path：路径        fun：处理函数        suffix：匹配指定规则的文件1234567891011121314151617181920212223242526#coding=utf-8# 利用os.walk()方法遍历目录import osimport fnmatchimport timepath = &amp;apos">
 
 
 
 
 
 
-  <link rel="canonical" href="http://renxiaoyuan.gitee.io/2018/05/25/Python每日进阶--使用sys和getopt输出从command获取的参数/"/>
+  <link rel="canonical" href="http://renxiaoyuan.gitee.io/Python每日进阶--使用os.walk()方法获取文件目录.html"/>
 
 
 
@@ -138,7 +136,7 @@
   };
 </script>
 
-  <title>Python每日进阶--使用sys和getopt输出从command获取的参数 | 破晓月圆</title>
+  <title>Python每日进阶--使用os.walk()方法获取文件目录 | 破晓月圆</title>
   
 
 
@@ -283,7 +281,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://renxiaoyuan.gitee.io/blog/2018/05/25/Python每日进阶--使用sys和getopt输出从command获取的参数/">
+    <link itemprop="mainEntityOfPage" href="http://renxiaoyuan.gitee.io/blog/Python每日进阶--使用os.walk()方法获取文件目录.html">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="破晓月圆">
@@ -300,7 +298,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Python每日进阶--使用sys和getopt输出从command获取的参数
+          <h1 class="post-title" itemprop="name headline">Python每日进阶--使用os.walk()方法获取文件目录
               
             
           </h1>
@@ -325,7 +323,7 @@
                 
               
 
-              <time title="Post created: 2018-05-25 10:44:07 / Updated at: 10:54:45" itemprop="dateCreated datePublished" datetime="2018-05-25T10:44:07+08:00">2018-05-25</time>
+              <time title="Post created: 2018-05-24 10:56:05 / Updated at: 10:57:00" itemprop="dateCreated datePublished" datetime="2018-05-24T10:56:05+08:00">2018-05-24</time>
             
 
             
@@ -363,24 +361,7 @@
       
 
       
-        <blockquote>
-<p>这篇文章用来简单说明sys.argv和getopt的用法</p>
-</blockquote>
-<ol>
-<li>getopt.getopt 方法<ul>
-<li>getopt.getopt 方法用于解析命令行参数列表</li>
-<li>语法格式：getopt.getopt(args, options[, long_options])</li>
-<li>args: 要解析的命令行参数列表</li>
-<li>options: 以字符串的格式定义，options后的冒号(:)表示该选项必须有附加的参数，不带冒号表示该选项不附加参数</li>
-<li>long_options: 以列表的格式定义，long_options 后的等号(=)表示如果设置该选项，必须有附加的参数，否则就不附加参数</li>
-</ul>
-</li>
-<li>getopt.GetoptError在没有找到参数列表，或选项的需要的参数为空时会触发该异常</li>
-<li>sys.argv 是命令行参数列表,sys.argv[0] 表示脚本名</li>
-<li>sys.exit()会引发一个异常：SystemExit，如果这个异常没有被捕获，那么python解释器将会退出。如果有捕获此异常的代码，那么这些代码还是会执行。捕获这个异常可以做一些额外的清理工作。0为正常退出，其他数值（1-127）为不正常，可抛异常事件供捕获<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">#coding=utf-8</span><br><span class="line"></span><br><span class="line">import sys, getopt</span><br><span class="line"></span><br><span class="line">def getArgs(argv):</span><br><span class="line"> 	try: </span><br><span class="line"> 		opts, args = getopt.getopt(argv, &quot;hg:d&quot;)</span><br><span class="line"> 		print(&quot;opt&apos;s type =&gt; &quot;, type(opts), opts)</span><br><span class="line"> 		print(&quot;args&apos;s type =&gt; &quot;, type(args), args)</span><br><span class="line"></span><br><span class="line"> 		for opt, arg in opts:</span><br><span class="line"> 			print(opt, arg)</span><br><span class="line"> 	except getopt.GetoptError: </span><br><span class="line"> 		sys.exit(2)</span><br><span class="line">getArgs(sys.argv[1:])</span><br><span class="line">print(sys.argv[0])</span><br><span class="line">print(sys.argv[1:])</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<p><img src="https://img-blog.csdn.net/20180525102732594?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlYm9mcnh5/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
+        <p>罗列从某个文件夹下的某一类文件，可以使用通配符<code>*</code><br>        path：路径<br>        fun：处理函数<br>        suffix：匹配指定规则的文件<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line">#coding=utf-8</span><br><span class="line"></span><br><span class="line"># 利用os.walk()方法遍历目录</span><br><span class="line"></span><br><span class="line">import os</span><br><span class="line">import fnmatch</span><br><span class="line">import time</span><br><span class="line"></span><br><span class="line">path = &apos;../src&apos;</span><br><span class="line">for root, dirs, files in os.walk(path):</span><br><span class="line">	for file in files:</span><br><span class="line">		suffix = os.path.splitext(file)[1]</span><br><span class="line">		if &apos;.py&apos; == suffix:</span><br><span class="line">			filepath = os.path.join(root, file)</span><br><span class="line">			print( filepath)</span><br><span class="line"></span><br><span class="line">def listFile(path, fun, suffix=&apos;*&apos;):</span><br><span class="line">	for  root, dirs, files in os.walk(path):</span><br><span class="line">		for file in files:</span><br><span class="line">			if fnmatch.fnmatch(file, suffix):</span><br><span class="line">				fun(os.path.join(root, file))</span><br><span class="line"></span><br><span class="line">def  function(filepath):</span><br><span class="line">	stime =time.strftime(&apos;%Y-%m-%d %H:%M:%S&apos;, time.localtime(os.path.getmtime(filepath)))</span><br><span class="line">	print(filepath+&apos;=&gt;&apos;+stime)</span><br><span class="line">listFile(&apos;../src/&apos;, function, &apos;*.py&apos;)</span><br></pre></td></tr></table></figure></p>
 
       
     </div>
@@ -414,8 +395,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/blog/2018/05/24/tpshop每日进阶--了解应用架构/" rel="next" title="tpshop每日进阶--了解tp5应用架构">
-                <i class="fa fa-chevron-left"></i> tpshop每日进阶--了解tp5应用架构
+              <a href="/blog/node每日进阶--使用supervisor自动重启node.html" rel="next" title="使用supervisor自动重启node">
+                <i class="fa fa-chevron-left"></i> 使用supervisor自动重启node
               </a>
             
           </div>
@@ -424,8 +405,8 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/blog/2018/05/26/Python每日进阶--使用os.fork执行多线程/" rel="prev" title="Python每日进阶--使用os.fork执行多线程">
-                Python每日进阶--使用os.fork执行多线程 <i class="fa fa-chevron-right"></i>
+              <a href="/blog/如何学习？.html" rel="prev" title="如何学习">
+                如何学习 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
