@@ -56,21 +56,21 @@
 
 
 
-<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+<link href="/blog/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
 
-<link href="/css/main.css?v=6.3.0" rel="stylesheet" type="text/css" />
-
-
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.3.0">
+<link href="/blog/css/main.css?v=6.3.0" rel="stylesheet" type="text/css" />
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.3.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/blog/images/apple-touch-icon-next.png?v=6.3.0">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.3.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/blog/images/favicon-32x32-next.png?v=6.3.0">
 
 
-  <link rel="mask-icon" href="/images/logo.svg?v=6.3.0" color="#222">
+  <link rel="icon" type="image/png" sizes="16x16" href="/blog/images/favicon-16x16-next.png?v=6.3.0">
+
+
+  <link rel="mask-icon" href="/blog/images/logo.svg?v=6.3.0" color="#222">
 
 
 
@@ -83,7 +83,7 @@
 <script type="text/javascript" id="hexo.configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
-    root: '/',
+    root: '/blog/',
     scheme: 'Gemini',
     version: '6.3.0',
     sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
@@ -108,22 +108,25 @@
 
 
 
-  <meta name="keywords" content="php,thinkphp,架构">
+  <meta name="description" content="这篇文章用来记录python中读取和写入文件的方法以及一些系统模块的使用  相关知识 sys模块是python程序用来请求解释器行为的接口,sys.argv: 实现从程序外部向程序传递参数 os模块提供了一种方便的使用操作系统函数的方法  1234567891011121314151617181920212223242526272829303132333435363738#!coding:UTF">
+<meta name="keywords" content="python">
 <meta property="og:type" content="article">
-<meta property="og:title" content="tpshop每日进阶--了解tp5应用架构">
-<meta property="og:url" content="http://renxiaoyuan.gitee.io/tpshop每日进阶--了解应用架构.html">
+<meta property="og:title" content="Python每日进阶--读取和写入文件">
+<meta property="og:url" content="http://renxiaoyuan.gitee.io/2018/05/23/Python每日进阶--读取和写入文件/index.html">
 <meta property="og:site_name" content="破晓月圆">
+<meta property="og:description" content="这篇文章用来记录python中读取和写入文件的方法以及一些系统模块的使用  相关知识 sys模块是python程序用来请求解释器行为的接口,sys.argv: 实现从程序外部向程序传递参数 os模块提供了一种方便的使用操作系统函数的方法  1234567891011121314151617181920212223242526272829303132333435363738#!coding:UTF">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-05-26T02:36:06.476Z">
+<meta property="og:updated_time" content="2018-05-24T01:42:27.815Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="tpshop每日进阶--了解tp5应用架构">
+<meta name="twitter:title" content="Python每日进阶--读取和写入文件">
+<meta name="twitter:description" content="这篇文章用来记录python中读取和写入文件的方法以及一些系统模块的使用  相关知识 sys模块是python程序用来请求解释器行为的接口,sys.argv: 实现从程序外部向程序传递参数 os模块提供了一种方便的使用操作系统函数的方法  1234567891011121314151617181920212223242526272829303132333435363738#!coding:UTF">
 
 
 
 
 
 
-  <link rel="canonical" href="http://renxiaoyuan.gitee.io/tpshop每日进阶--了解应用架构.html"/>
+  <link rel="canonical" href="http://renxiaoyuan.gitee.io/2018/05/23/Python每日进阶--读取和写入文件/"/>
 
 
 
@@ -133,7 +136,7 @@
   };
 </script>
 
-  <title>tpshop每日进阶--了解tp5应用架构 | 破晓月圆</title>
+  <title>Python每日进阶--读取和写入文件 | 破晓月圆</title>
   
 
 
@@ -189,7 +192,7 @@
     
 
     <div class="custom-logo-site-title">
-      <a href="/" class="brand" rel="start">
+      <a href="/blog/" class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
         <span class="site-title">破晓月圆</span>
         <span class="logo-line-after"><i></i></span>
@@ -218,7 +221,7 @@
         
           
           <li class="menu-item menu-item-home">
-    <a href="/" rel="section">
+    <a href="/blog/" rel="section">
       <i class="menu-item-icon fa fa-fw fa-home"></i> <br />Startseite</a>
   </li>
         
@@ -226,7 +229,7 @@
         
           
           <li class="menu-item menu-item-archives">
-    <a href="/archives/" rel="section">
+    <a href="/blog/archives/" rel="section">
       <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />Archiv</a>
   </li>
 
@@ -278,12 +281,12 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://renxiaoyuan.gitee.io/tpshop每日进阶--了解应用架构.html">
+    <link itemprop="mainEntityOfPage" href="http://renxiaoyuan.gitee.io/blog/2018/05/23/Python每日进阶--读取和写入文件/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="破晓月圆">
       <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="image" content="/blog/images/avatar.gif">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -295,7 +298,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">tpshop每日进阶--了解tp5应用架构
+          <h1 class="post-title" itemprop="name headline">Python每日进阶--读取和写入文件
               
             
           </h1>
@@ -320,7 +323,7 @@
                 
               
 
-              <time title="Post created: 2018-05-24 22:58:58" itemprop="dateCreated datePublished" datetime="2018-05-24T22:58:58+08:00">2018-05-24</time>
+              <time title="Post created: 2018-05-23 13:49:47" itemprop="dateCreated datePublished" datetime="2018-05-23T13:49:47+08:00">2018-05-23</time>
             
 
             
@@ -337,7 +340,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Updated at: 2018-05-26 10:36:06" itemprop="dateModified" datetime="2018-05-26T10:36:06+08:00">2018-05-26</time>
+                <time title="Updated at: 2018-05-24 09:42:27" itemprop="dateModified" datetime="2018-05-24T09:42:27+08:00">2018-05-24</time>
               
             
           </span>
@@ -370,7 +373,14 @@
       
 
       
-        
+        <blockquote>
+<p>这篇文章用来记录python中读取和写入文件的方法以及一些系统模块的使用</p>
+</blockquote>
+<h4 id="相关知识"><a href="#相关知识" class="headerlink" title="相关知识"></a>相关知识</h4><ol>
+<li>sys模块是python程序用来请求解释器行为的接口,sys.argv: 实现从程序外部向程序传递参数</li>
+<li>os模块提供了一种方便的使用操作系统函数的方法</li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line">#!coding:UTF-8</span><br><span class="line">import sys</span><br><span class="line">def operation_file(file_name):</span><br><span class="line">	try:</span><br><span class="line">		h_file = open(file_name)</span><br><span class="line">		try:</span><br><span class="line">			readlines = h_file.readlines();</span><br><span class="line">			print(readlines)</span><br><span class="line">		finally:</span><br><span class="line">			h_file.close()</span><br><span class="line">	except IOError:</span><br><span class="line">		print(&quot;IOError&quot;)</span><br><span class="line">def operation_write_file(file_name, strs):</span><br><span class="line">	try:</span><br><span class="line">		h_file = open(file_name, &apos;w&apos;, 1)</span><br><span class="line">		try: </span><br><span class="line">			h_file.write(strs)</span><br><span class="line">		finally:</span><br><span class="line">			h_file.close()</span><br><span class="line">	except IOError:</span><br><span class="line">		print(&quot;IOError&quot;)</span><br><span class="line">if len(sys.argv) != 2:</span><br><span class="line">	print(&quot;usage:*.py path/file_name&quot;)</span><br><span class="line">else: </span><br><span class="line">	operation_file(sys.argv[1])</span><br><span class="line">print (&quot;write file:&quot;)</span><br><span class="line">strs =&quot;&quot;&quot;</span><br><span class="line">	    All that city!you just couldn&apos;t see an end to it.</span><br><span class="line">	    The end? please? can you please just show me where is ends?</span><br><span class="line">	    ...</span><br><span class="line">	    One woman,onw house,one piece of land to call your own</span><br><span class="line">	    One landscape to look at,on way to die!</span><br><span class="line">	    All that world just weighing down on you.</span><br><span class="line">	    You don&apos;t even know where it comes to and end.</span><br><span class="line">	    ...!</span><br><span class="line">	&quot;&quot;&quot;</span><br><span class="line">print (strs)</span><br><span class="line">operation_write_file(&quot;aplanforme.txt&quot;,strs)</span><br></pre></td></tr></table></figure>
       
     </div>
 
@@ -390,11 +400,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/php/" rel="tag"># php</a>
-          
-            <a href="/tags/thinkphp/" rel="tag"># thinkphp</a>
-          
-            <a href="/tags/架构/" rel="tag"># 架构</a>
+            <a href="/blog/tags/python/" rel="tag"># python</a>
           
         </div>
       
@@ -407,18 +413,14 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/如何学习？.html" rel="next" title="如何学习">
-                <i class="fa fa-chevron-left"></i> 如何学习
-              </a>
-            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/Python每日进阶--使用sys和getopt输出从command获取的参数.html" rel="prev" title="Python每日进阶--使用sys和getopt输出从command获取的参数">
-                Python每日进阶--使用sys和getopt输出从command获取的参数 <i class="fa fa-chevron-right"></i>
+              <a href="/blog/2018/05/23/node每日进阶--使用supervisor自动重启node/" rel="prev" title="使用supervisor自动重启node">
+                使用supervisor自动重启node <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -468,8 +470,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Inhaltsverzeichnis
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Übersicht
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -482,7 +493,7 @@
               
                 <div class="site-state-item site-state-posts">
                 
-                  <a href="/archives/">
+                  <a href="/blog/archives/">
                 
                     <span class="site-state-item-count">8</span>
                     <span class="site-state-item-name">Artikel</span>
@@ -541,6 +552,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#相关知识"><span class="nav-number">1.</span> <span class="nav-text">相关知识</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -641,49 +668,49 @@
 
   
   
-    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+    <script type="text/javascript" src="/blog/lib/jquery/index.js?v=2.1.3"></script>
   
 
   
   
-    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+    <script type="text/javascript" src="/blog/lib/velocity/velocity.min.js?v=1.2.1"></script>
   
 
   
   
-    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+    <script type="text/javascript" src="/blog/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
   
-
-
-  
-
-
-  <script type="text/javascript" src="/js/src/utils.js?v=6.3.0"></script>
-
-  <script type="text/javascript" src="/js/src/motion.js?v=6.3.0"></script>
-
-
-
-  
-  
-
-
-  <script type="text/javascript" src="/js/src/affix.js?v=6.3.0"></script>
-
-  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=6.3.0"></script>
-
-
-
-  
-  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.3.0"></script>
-<script type="text/javascript" src="/js/src/post-details.js?v=6.3.0"></script>
-
 
 
   
 
 
-  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.3.0"></script>
+  <script type="text/javascript" src="/blog/js/src/utils.js?v=6.3.0"></script>
+
+  <script type="text/javascript" src="/blog/js/src/motion.js?v=6.3.0"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/blog/js/src/affix.js?v=6.3.0"></script>
+
+  <script type="text/javascript" src="/blog/js/src/schemes/pisces.js?v=6.3.0"></script>
+
+
+
+  
+  <script type="text/javascript" src="/blog/js/src/scrollspy.js?v=6.3.0"></script>
+<script type="text/javascript" src="/blog/js/src/post-details.js?v=6.3.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/blog/js/src/bootstrap.js?v=6.3.0"></script>
 
 
 
