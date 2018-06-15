@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://webofrxy.github.io/"/>
-  <updated>2018-05-26T08:08:51.501Z</updated>
+  <updated>2018-06-15T15:03:02.252Z</updated>
   <id>https://webofrxy.github.io/</id>
   
   <author>
@@ -15,6 +15,60 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>git使用方法总结</title>
+    <link href="https://webofrxy.github.io/git%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.html"/>
+    <id>https://webofrxy.github.io/git使用方法总结.html</id>
+    <published>2018-06-15T13:17:06.782Z</published>
+    <updated>2018-06-15T15:03:02.252Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>本文用来总结一次使用Git切换仓库的经验</p></blockquote><ol><li>查看远程仓库地址：<code>git remote show origin</code></li><li>切换远程仓库地址：<code>git remote set-url origin xxx(新的仓库地址)</code></li><li>获取最新代码：<code>git pull</code></li><li><p>如果不能获取代码并且提示：</p> <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">There is no tracking information for the current branch.</span><br><span class="line">Please specify which branch you want to merge with.</span><br><span class="line">See git-pull(1) for details.</span><br><span class="line"></span><br><span class="line">git pull &lt;remote&gt; &lt;branch&gt;</span><br><span class="line"></span><br><span class="line">If you wish to set tracking information for this branch you can do so with:</span><br><span class="line"></span><br><span class="line">git branch --set-upstream-to=origin/&lt;branch&gt; master</span><br></pre></td></tr></table></figure><p> 则执行下面命令：<code>git branch --set-upstream-to=origin/当前分支名  远程分支名</code></p></li><li>如果还提示：<code>$ git pull fatal: refusing to merge unrelated histories</code>,则执行下面命令：<code>git pull origin master allow-unrelated-histories</code></li><li>然后再次更新代码：<code>git pull</code></li><li>如果提示代码冲突：<code>master | MERGING</code>,则执行回退命令：<code>git reset --merge</code>将代码恢复到更新代码之前</li><li>如果想回退某个历史版本，执行：<code>git checkout 版本号</code></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;本文用来总结一次使用Git切换仓库的经验&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;查看远程仓库地址：&lt;code&gt;git remote show origin&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;切换远程仓库地址：&lt;code&gt;git rem
+      
+    
+    </summary>
+    
+    
+      <category term="node" scheme="https://webofrxy.github.io/tags/node/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>express中multer的使用</title>
+    <link href="https://webofrxy.github.io/express%E4%B8%ADmulter%E7%9A%84%E4%BD%BF%E7%94%A8.html"/>
+    <id>https://webofrxy.github.io/express中multer的使用.html</id>
+    <published>2018-06-11T04:20:50.489Z</published>
+    <updated>2018-06-15T15:02:58.748Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>本文用来总结在express中使用multer的经验</p></blockquote><h4 id="multer的介绍"><a href="#multer的介绍" class="headerlink" title="multer的介绍"></a>multer的介绍</h4><p>在使用express开发的过程中，前后端之间的交互基本上是通过HTTP实现的。在使用HTTP传输数据时，我们经常会遇到数据解析的问题，例如，前端使用axios发起一个post请求，请求的数据使用form-data的格式传给了后端，此时，后端就需要设置解析接受到的数据的格式，解析的方法也会因为后端开发语言的不同而有差别。今天我们要介绍的就是在使用express开发时，如何解析HTTP中传输过来的数据。在express的开发中，常用的解析工具有cookie-parser,body-parser和multer，其中multer就是用来解析传输的数据是form-data，x-www-form-urlencode和raw格式的请求。</p><h4 id="req获取传输数据的方法"><a href="#req获取传输数据的方法" class="headerlink" title="req获取传输数据的方法"></a>req获取传输数据的方法</h4><ol><li>req.query获取查询参数 /api/users?name=wwx</li><li>req.param获取pathinfo中参数 /api/users/{id}</li><li>req.body获取form提交参数</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;本文用来总结在express中使用multer的经验&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h4 id=&quot;multer的介绍&quot;&gt;&lt;a href=&quot;#multer的介绍&quot; class=&quot;headerlink&quot; title=&quot;multer的介绍&quot;&gt;&lt;/
+      
+    
+    </summary>
+    
+    
+      <category term="node" scheme="https://webofrxy.github.io/tags/node/"/>
+    
+  </entry>
   
   <entry>
     <title>关于五年后人们生活状况的思考</title>
