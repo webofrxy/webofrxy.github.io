@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://renxiaoyuan.coding.me/"/>
-  <updated>2019-03-06T14:58:00.080Z</updated>
+  <updated>2019-03-07T14:47:32.385Z</updated>
   <id>https://renxiaoyuan.coding.me/</id>
   
   <author>
@@ -21,15 +21,18 @@
     <link href="https://renxiaoyuan.coding.me/hexo%E5%AE%89%E8%A3%85.html"/>
     <id>https://renxiaoyuan.coding.me/hexo安装.html</id>
     <published>2019-03-06T14:56:47.618Z</published>
-    <updated>2019-03-06T14:58:00.080Z</updated>
+    <updated>2019-03-07T14:47:32.385Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="hexo安装"><a href="#hexo安装" class="headerlink" title="hexo安装"></a>hexo安装</h3>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>写博客的第一步总是从安装和折腾主题开始的，从知道到开始使用，我逐渐喜欢上了这种记录的方式。自从开始使用hexo后，一边写点东西，一边对博客主题修修改改，为了方便以后查阅，特此记录一下安装和修改的过程</p></blockquote><h3 id="hexo安装"><a href="#hexo安装" class="headerlink" title="hexo安装"></a>hexo安装</h3> <figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">1.</span> npm install hexo-cli -g </span><br><span class="line"><span class="number">2.</span> npm install </span><br><span class="line"><span class="number">3.</span> hexo <span class="keyword">new</span> postname 新建文章</span><br><span class="line"><span class="number">4.</span> hexo server 启动本地服务</span><br><span class="line"><span class="number">5.</span> hexo generate 编译文章</span><br></pre></td></tr></table></figure><h3 id="修改主题和相关配置"><a href="#修改主题和相关配置" class="headerlink" title="修改主题和相关配置"></a>修改主题和相关配置</h3>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h3 id=&quot;hexo安装&quot;&gt;&lt;a href=&quot;#hexo安装&quot; class=&quot;headerlink&quot; title=&quot;hexo安装&quot;&gt;&lt;/a&gt;hexo安装&lt;/h3&gt;
+        &lt;blockquote&gt;
+&lt;p&gt;写博客的第一步总是从安装和折腾主题开始的，从知道到开始使用，我逐渐喜欢上了这种记录的方式。自从开始使用hexo后，一边写点东西，一边对博客主题修修改改，为了方便以后查阅，特此记录一下安装和修改的过程&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id
       
     
     </summary>
