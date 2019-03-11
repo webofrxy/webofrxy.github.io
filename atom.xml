@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://webofrxy.github.io/"/>
-  <updated>2019-03-11T04:47:54.362Z</updated>
+  <updated>2019-03-11T04:55:40.422Z</updated>
   <id>https://webofrxy.github.io/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="https://webofrxy.github.io/yuque/thinkjs%E6%AF%8F%E6%97%A5%E8%BF%9B%E9%98%B6--%E4%BA%86%E8%A7%A3thinkjs%E5%BA%94%E7%94%A8%E6%9E%B6%E6%9E%84.html"/>
     <id>https://webofrxy.github.io/yuque/thinkjs每日进阶--了解thinkjs应用架构.html</id>
     <published>2019-03-11T04:25:40.000Z</published>
-    <updated>2019-03-11T04:47:54.362Z</updated>
+    <updated>2019-03-11T04:55:40.422Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>thinkjs 一个类似php中thinkphp的node框架，框架底层基于koa2实现，兼容koa2的所有功能。</p></blockquote><p><a name="80698eed"></a></p><h3 id="thinkjs的特性"><a href="#thinkjs的特性" class="headerlink" title="thinkjs的特性"></a>thinkjs的特性</h3><ul><li>基于 Koa 2.x，兼容 middleware</li><li>内核小巧，支持 Extend、Adapter 等插件方式</li><li>性能优异，单元测试覆盖程度高</li><li>内置自动编译、自动更新机制，方便快速开发</li><li>使用更优雅的 async/await 处理异步问题，不再支持 */yield</li><li>从 3.2 开始支持 TypeScript<br><a name="7d8bc5ca"></a><h3 id="thinkjs架构"><a href="#thinkjs架构" class="headerlink" title="thinkjs架构"></a>thinkjs架构</h3></li></ul>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>thinkjs 一个类似php中thinkphp的node框架，框架底层基于koa2实现，兼容koa2的所有功能。</p></blockquote><p><a name="80698eed"></a></p><h3 id="thinkjs的特性"><a href="#thinkjs的特性" class="headerlink" title="thinkjs的特性"></a>thinkjs的特性</h3><ul><li>基于 Koa 2.x，兼容 middleware</li><li>内核小巧，支持 Extend、Adapter 等插件方式</li><li>性能优异，单元测试覆盖程度高</li><li>内置自动编译、自动更新机制，方便快速开发</li><li>使用更优雅的 async/await 处理异步问题，不再支持 */yield</li><li>从 3.2 开始支持 TypeScript<br><a name="7d8bc5ca"></a><h3 id="thinkjs架构"><a href="#thinkjs架构" class="headerlink" title="thinkjs架构"></a>thinkjs架构</h3></li></ul><p><a name="f35061c6"></a></p><h3 id="thinkjs结构"><a href="#thinkjs结构" class="headerlink" title="thinkjs结构"></a>thinkjs结构</h3><p><img src="https://cdn.nlark.com/yuque/0/2019/png/241017/1552280122138-78a45d22-4b4b-445c-8dba-870a62d1411e.png" alt=""></p>]]></content>
     
     <summary type="html">
     
@@ -46,7 +46,7 @@
     <link href="https://webofrxy.github.io/yuque/Docker%20for%20windows%E6%95%99%E7%A8%8B.html"/>
     <id>https://webofrxy.github.io/yuque/Docker for windows教程.html</id>
     <published>2019-03-10T02:59:43.000Z</published>
-    <updated>2019-03-11T04:47:54.368Z</updated>
+    <updated>2019-03-11T04:55:40.438Z</updated>
     
     <content type="html"><![CDATA[<p><a name="e655a410"></a></p><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2>]]></content>
     
