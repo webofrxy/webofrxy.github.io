@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://renxiaoyuan.gitee.io/"/>
-  <updated>2019-03-11T02:42:51.457Z</updated>
-  <id>http://renxiaoyuan.gitee.io/</id>
+  <link href="https://webofrxy.github.io/"/>
+  <updated>2019-03-11T04:30:46.238Z</updated>
+  <id>https://webofrxy.github.io/</id>
   
   <author>
     <name>破晓月圆</name>
@@ -17,11 +17,36 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>thinkjs每日进阶--了解thinkjs应用架构</title>
+    <link href="https://webofrxy.github.io/yuque/thinkjs%E6%AF%8F%E6%97%A5%E8%BF%9B%E9%98%B6--%E4%BA%86%E8%A7%A3thinkjs%E5%BA%94%E7%94%A8%E6%9E%B6%E6%9E%84.html"/>
+    <id>https://webofrxy.github.io/yuque/thinkjs每日进阶--了解thinkjs应用架构.html</id>
+    <published>2019-03-11T04:25:40.000Z</published>
+    <updated>2019-03-11T04:30:46.238Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>thinkjs 一个类似php中thinkphp的node框架，框架底层基于koa2实现，兼容koa2的所有功能。</p></blockquote><p><a name="80698eed"></a></p><h3 id="thinkjs的特性"><a href="#thinkjs的特性" class="headerlink" title="thinkjs的特性"></a>thinkjs的特性</h3><ul><li>基于 Koa 2.x，兼容 middleware</li><li>内核小巧，支持 Extend、Adapter 等插件方式</li><li>性能优异，单元测试覆盖程度高</li><li>内置自动编译、自动更新机制，方便快速开发</li><li>使用更优雅的 async/await 处理异步问题，不再支持 */yield</li><li>从 3.2 开始支持 TypeScript<br><a name="7d8bc5ca"></a><h3 id="thinkjs架构"><a href="#thinkjs架构" class="headerlink" title="thinkjs架构"></a>thinkjs架构</h3></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;
+&lt;p&gt;thinkjs 一个类似php中thinkphp的node框架，框架底层基于koa2实现，兼容koa2的所有功能。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;a name=&quot;80698eed&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&quot;thinkjs的特
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>Docker for windows 教程</title>
-    <link href="http://renxiaoyuan.gitee.io/yuque/Docker%20for%20windows%20%E6%95%99%E7%A8%8B.html"/>
-    <id>http://renxiaoyuan.gitee.io/yuque/Docker for windows 教程.html</id>
+    <link href="https://webofrxy.github.io/yuque/Docker%20for%20windows%20%E6%95%99%E7%A8%8B.html"/>
+    <id>https://webofrxy.github.io/yuque/Docker for windows 教程.html</id>
     <published>2019-03-11T01:52:21.000Z</published>
-    <updated>2019-03-11T02:42:51.457Z</updated>
+    <updated>2019-03-11T04:30:46.223Z</updated>
     
     <content type="html"><![CDATA[<p><a name="e655a410"></a></p><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p><img src="https://cdn.nlark.com/yuque/0/2019/png/241017/1552269250334-475dff69-41b2-49b0-a9b2-6548bb0a089e.png#align=left&amp;display=inline&amp;height=514&amp;name=docker%E6%8C%89%E7%85%A7.png&amp;originHeight=744&amp;originWidth=1080&amp;size=60585&amp;status=done&amp;width=746" alt="docker按照.png"><br><img src="https://cdn.nlark.com/yuque/0/2019/png/241017/1552269195295-f4870591-1eea-47fe-9534-7bcf3f356278.png#align=left&amp;display=inline&amp;height=514&amp;name=docker%E5%AE%89%E8%A3%85.png&amp;originHeight=744&amp;originWidth=1080&amp;size=28960&amp;status=done&amp;width=746" alt="docker安装.png"></p>]]></content>
     
@@ -39,9 +64,31 @@
   </entry>
   
   <entry>
+    <title>Docker for windows教程</title>
+    <link href="https://webofrxy.github.io/yuque/Docker%20for%20windows%E6%95%99%E7%A8%8B.html"/>
+    <id>https://webofrxy.github.io/yuque/Docker for windows教程.html</id>
+    <published>2019-03-10T02:59:43.000Z</published>
+    <updated>2019-03-11T04:30:46.248Z</updated>
+    
+    <content type="html"><![CDATA[<p><a name="e655a410"></a></p><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;a name=&quot;e655a410&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
     <title>hexo安装</title>
-    <link href="http://renxiaoyuan.gitee.io/hexo%E5%AE%89%E8%A3%85.html"/>
-    <id>http://renxiaoyuan.gitee.io/hexo安装.html</id>
+    <link href="https://webofrxy.github.io/hexo%E5%AE%89%E8%A3%85.html"/>
+    <id>https://webofrxy.github.io/hexo安装.html</id>
     <published>2019-03-06T14:56:47.619Z</published>
     <updated>2019-03-07T14:47:32.386Z</updated>
     
@@ -60,14 +107,14 @@
     </summary>
     
     
-      <category term="hexo" scheme="http://renxiaoyuan.gitee.io/tags/hexo/"/>
+      <category term="hexo" scheme="https://webofrxy.github.io/tags/hexo/"/>
     
   </entry>
   
   <entry>
     <title>如何学习</title>
-    <link href="http://renxiaoyuan.gitee.io/%E5%A6%82%E4%BD%95%E5%AD%A6%E4%B9%A0%EF%BC%9F.html"/>
-    <id>http://renxiaoyuan.gitee.io/如何学习？.html</id>
+    <link href="https://webofrxy.github.io/%E5%A6%82%E4%BD%95%E5%AD%A6%E4%B9%A0%EF%BC%9F.html"/>
+    <id>https://webofrxy.github.io/如何学习？.html</id>
     <published>2019-02-20T12:06:08.153Z</published>
     <updated>2018-06-26T13:47:47.440Z</updated>
     
@@ -86,16 +133,16 @@
     </summary>
     
     
-      <category term="学习" scheme="http://renxiaoyuan.gitee.io/tags/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="https://webofrxy.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="技术" scheme="http://renxiaoyuan.gitee.io/tags/%E6%8A%80%E6%9C%AF/"/>
+      <category term="技术" scheme="https://webofrxy.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
   <entry>
     <title>关于五年后人们生活状况的思考</title>
-    <link href="http://renxiaoyuan.gitee.io/%E5%85%B3%E4%BA%8E%E4%BA%94%E5%B9%B4%E5%90%8E%E7%94%9F%E6%B4%BB%E7%8A%B6%E5%86%B5%E7%9A%84%E6%80%9D%E8%80%83.html"/>
-    <id>http://renxiaoyuan.gitee.io/关于五年后生活状况的思考.html</id>
+    <link href="https://webofrxy.github.io/%E5%85%B3%E4%BA%8E%E4%BA%94%E5%B9%B4%E5%90%8E%E7%94%9F%E6%B4%BB%E7%8A%B6%E5%86%B5%E7%9A%84%E6%80%9D%E8%80%83.html"/>
+    <id>https://webofrxy.github.io/关于五年后生活状况的思考.html</id>
     <published>2019-02-20T12:06:08.151Z</published>
     <updated>2018-06-26T13:47:47.439Z</updated>
     
@@ -111,14 +158,14 @@
     </summary>
     
     
-      <category term="生活" scheme="http://renxiaoyuan.gitee.io/tags/%E7%94%9F%E6%B4%BB/"/>
+      <category term="生活" scheme="https://webofrxy.github.io/tags/%E7%94%9F%E6%B4%BB/"/>
     
   </entry>
   
   <entry>
     <title>vue每日进阶--实现一个搜索框</title>
-    <link href="http://renxiaoyuan.gitee.io/vue%E6%AF%8F%E6%97%A5%E8%BF%9B%E9%98%B6--%E7%94%A8%E5%8F%8C%E5%90%91%E6%95%B0%E6%8D%AE%E7%BB%91%E5%AE%9A%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E6%90%9C%E7%B4%A2%E6%A1%86.html"/>
-    <id>http://renxiaoyuan.gitee.io/vue每日进阶--用双向数据绑定实现一个搜索框.html</id>
+    <link href="https://webofrxy.github.io/vue%E6%AF%8F%E6%97%A5%E8%BF%9B%E9%98%B6--%E7%94%A8%E5%8F%8C%E5%90%91%E6%95%B0%E6%8D%AE%E7%BB%91%E5%AE%9A%E5%AE%9E%E7%8E%B0%E4%B8%80%E4%B8%AA%E6%90%9C%E7%B4%A2%E6%A1%86.html"/>
+    <id>https://webofrxy.github.io/vue每日进阶--用双向数据绑定实现一个搜索框.html</id>
     <published>2019-02-20T12:06:08.149Z</published>
     <updated>2018-06-26T13:47:47.438Z</updated>
     
@@ -135,14 +182,14 @@
     </summary>
     
     
-      <category term="vue" scheme="http://renxiaoyuan.gitee.io/tags/vue/"/>
+      <category term="vue" scheme="https://webofrxy.github.io/tags/vue/"/>
     
   </entry>
   
   <entry>
     <title>vue每日进阶--vue入门</title>
-    <link href="http://renxiaoyuan.gitee.io/vue%E6%AF%8F%E6%97%A5%E8%BF%9B%E9%98%B6--vue%E5%85%A5%E9%97%A8.html"/>
-    <id>http://renxiaoyuan.gitee.io/vue每日进阶--vue入门.html</id>
+    <link href="https://webofrxy.github.io/vue%E6%AF%8F%E6%97%A5%E8%BF%9B%E9%98%B6--vue%E5%85%A5%E9%97%A8.html"/>
+    <id>https://webofrxy.github.io/vue每日进阶--vue入门.html</id>
     <published>2019-02-20T12:06:08.146Z</published>
     <updated>2018-06-26T14:53:25.253Z</updated>
     
@@ -158,42 +205,44 @@
     </summary>
     
     
-      <category term="vue" scheme="http://renxiaoyuan.gitee.io/tags/vue/"/>
+      <category term="vue" scheme="https://webofrxy.github.io/tags/vue/"/>
     
   </entry>
   
   <entry>
     <title>thinkjs每日进阶--了解thinkjs应用架构</title>
-    <link href="http://renxiaoyuan.gitee.io/tpshop%E6%AF%8F%E6%97%A5%E8%BF%9B%E9%98%B6--%E4%BA%86%E8%A7%A3%E5%BA%94%E7%94%A8%E6%9E%B6%E6%9E%84.html"/>
-    <id>http://renxiaoyuan.gitee.io/tpshop每日进阶--了解应用架构.html</id>
+    <link href="https://webofrxy.github.io/thinkjs%E6%AF%8F%E6%97%A5%E8%BF%9B%E9%98%B6--%E4%BA%86%E8%A7%A3%E5%BA%94%E7%94%A8%E6%9E%B6%E6%9E%84.html"/>
+    <id>https://webofrxy.github.io/thinkjs每日进阶--了解应用架构.html</id>
     <published>2019-02-20T12:06:08.144Z</published>
-    <updated>2019-03-06T14:36:07.262Z</updated>
+    <updated>2019-03-11T04:25:15.861Z</updated>
     
-    <content type="html"><![CDATA[<h3 id="thinkjs"><a href="#thinkjs" class="headerlink" title="thinkjs"></a>thinkjs</h3><p> thinkjs 一个类似php中thinkphp的node框架。</p>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>thinkjs 一个类似php中thinkphp的node框架，框架底层基于koa2实现，兼容koa2的所有功能。</p></blockquote><h3 id="thinkjs的特性"><a href="#thinkjs的特性" class="headerlink" title="thinkjs的特性"></a>thinkjs的特性</h3><ul><li>基于 Koa 2.x，兼容 middleware</li><li>内核小巧，支持 Extend、Adapter 等插件方式</li><li>性能优异，单元测试覆盖程度高</li><li>内置自动编译、自动更新机制，方便快速开发</li><li>使用更优雅的 async/await 处理异步问题，不再支持 */yield</li><li>从 3.2 开始支持 TypeScript</li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;h3 id=&quot;thinkjs&quot;&gt;&lt;a href=&quot;#thinkjs&quot; class=&quot;headerlink&quot; title=&quot;thinkjs&quot;&gt;&lt;/a&gt;thinkjs&lt;/h3&gt;&lt;p&gt; thinkjs 一个类似php中thinkphp的node框架。&lt;/p&gt;
-
+        &lt;blockquote&gt;
+&lt;p&gt;thinkjs 一个类似php中thinkphp的node框架，框架底层基于koa2实现，兼容koa2的所有功能。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&quot;thinkjs的特性&quot;&gt;&lt;a href=&quot;#thinkjs的特性&quot; class=
       
     
     </summary>
     
     
-      <category term="javascript" scheme="http://renxiaoyuan.gitee.io/tags/javascript/"/>
+      <category term="javascript" scheme="https://webofrxy.github.io/tags/javascript/"/>
     
-      <category term="thinkjs" scheme="http://renxiaoyuan.gitee.io/tags/thinkjs/"/>
+      <category term="thinkjs" scheme="https://webofrxy.github.io/tags/thinkjs/"/>
     
-      <category term="架构" scheme="http://renxiaoyuan.gitee.io/tags/%E6%9E%B6%E6%9E%84/"/>
+      <category term="架构" scheme="https://webofrxy.github.io/tags/%E6%9E%B6%E6%9E%84/"/>
     
   </entry>
   
   <entry>
     <title>Python每日进阶--读取和写入文件</title>
-    <link href="http://renxiaoyuan.gitee.io/Python%E6%AF%8F%E6%97%A5%E8%BF%9B%E9%98%B6--%E8%AF%BB%E5%8F%96%E5%92%8C%E5%86%99%E5%85%A5%E6%96%87%E4%BB%B6.html"/>
-    <id>http://renxiaoyuan.gitee.io/Python每日进阶--读取和写入文件.html</id>
+    <link href="https://webofrxy.github.io/Python%E6%AF%8F%E6%97%A5%E8%BF%9B%E9%98%B6--%E8%AF%BB%E5%8F%96%E5%92%8C%E5%86%99%E5%85%A5%E6%96%87%E4%BB%B6.html"/>
+    <id>https://webofrxy.github.io/Python每日进阶--读取和写入文件.html</id>
     <published>2019-02-20T12:06:08.142Z</published>
     <updated>2018-06-26T13:47:47.432Z</updated>
     
@@ -212,14 +261,14 @@
     </summary>
     
     
-      <category term="python" scheme="http://renxiaoyuan.gitee.io/tags/python/"/>
+      <category term="python" scheme="https://webofrxy.github.io/tags/python/"/>
     
   </entry>
   
   <entry>
     <title>Python每日进阶--使用sys和getopt输出从command获取的参数</title>
-    <link href="http://renxiaoyuan.gitee.io/Python%E6%AF%8F%E6%97%A5%E8%BF%9B%E9%98%B6--%E4%BD%BF%E7%94%A8sys%E5%92%8Cgetopt%E8%BE%93%E5%87%BA%E4%BB%8Ecommand%E8%8E%B7%E5%8F%96%E7%9A%84%E5%8F%82%E6%95%B0.html"/>
-    <id>http://renxiaoyuan.gitee.io/Python每日进阶--使用sys和getopt输出从command获取的参数.html</id>
+    <link href="https://webofrxy.github.io/Python%E6%AF%8F%E6%97%A5%E8%BF%9B%E9%98%B6--%E4%BD%BF%E7%94%A8sys%E5%92%8Cgetopt%E8%BE%93%E5%87%BA%E4%BB%8Ecommand%E8%8E%B7%E5%8F%96%E7%9A%84%E5%8F%82%E6%95%B0.html"/>
+    <id>https://webofrxy.github.io/Python每日进阶--使用sys和getopt输出从command获取的参数.html</id>
     <published>2019-02-20T12:06:08.140Z</published>
     <updated>2018-06-26T13:47:47.431Z</updated>
     
@@ -241,14 +290,14 @@
     </summary>
     
     
-      <category term="python" scheme="http://renxiaoyuan.gitee.io/tags/python/"/>
+      <category term="python" scheme="https://webofrxy.github.io/tags/python/"/>
     
   </entry>
   
   <entry>
     <title>Python每日进阶--使用os.walk()方法获取文件目录</title>
-    <link href="http://renxiaoyuan.gitee.io/Python%E6%AF%8F%E6%97%A5%E8%BF%9B%E9%98%B6--%E4%BD%BF%E7%94%A8os.walk()%E6%96%B9%E6%B3%95%E8%8E%B7%E5%8F%96%E6%96%87%E4%BB%B6%E7%9B%AE%E5%BD%95.html"/>
-    <id>http://renxiaoyuan.gitee.io/Python每日进阶--使用os.walk()方法获取文件目录.html</id>
+    <link href="https://webofrxy.github.io/Python%E6%AF%8F%E6%97%A5%E8%BF%9B%E9%98%B6--%E4%BD%BF%E7%94%A8os.walk()%E6%96%B9%E6%B3%95%E8%8E%B7%E5%8F%96%E6%96%87%E4%BB%B6%E7%9B%AE%E5%BD%95.html"/>
+    <id>https://webofrxy.github.io/Python每日进阶--使用os.walk()方法获取文件目录.html</id>
     <published>2019-02-20T12:06:08.138Z</published>
     <updated>2018-06-26T13:47:47.429Z</updated>
     
@@ -264,14 +313,14 @@
     </summary>
     
     
-      <category term="python" scheme="http://renxiaoyuan.gitee.io/tags/python/"/>
+      <category term="python" scheme="https://webofrxy.github.io/tags/python/"/>
     
   </entry>
   
   <entry>
     <title>Python每日进阶--使用os.fork执行多线程</title>
-    <link href="http://renxiaoyuan.gitee.io/Python%E6%AF%8F%E6%97%A5%E8%BF%9B%E9%98%B6--%E4%BD%BF%E7%94%A8os.fork%E6%89%A7%E8%A1%8C%E5%A4%9A%E7%BA%BF%E7%A8%8B.html"/>
-    <id>http://renxiaoyuan.gitee.io/Python每日进阶--使用os.fork执行多线程.html</id>
+    <link href="https://webofrxy.github.io/Python%E6%AF%8F%E6%97%A5%E8%BF%9B%E9%98%B6--%E4%BD%BF%E7%94%A8os.fork%E6%89%A7%E8%A1%8C%E5%A4%9A%E7%BA%BF%E7%A8%8B.html"/>
+    <id>https://webofrxy.github.io/Python每日进阶--使用os.fork执行多线程.html</id>
     <published>2019-02-20T12:06:08.135Z</published>
     <updated>2018-06-26T13:47:47.429Z</updated>
     
@@ -287,14 +336,14 @@
     </summary>
     
     
-      <category term="python" scheme="http://renxiaoyuan.gitee.io/tags/python/"/>
+      <category term="python" scheme="https://webofrxy.github.io/tags/python/"/>
     
   </entry>
   
   <entry>
     <title>使用supervisor自动重启node</title>
-    <link href="http://renxiaoyuan.gitee.io/node%E6%AF%8F%E6%97%A5%E8%BF%9B%E9%98%B6--%E4%BD%BF%E7%94%A8supervisor%E8%87%AA%E5%8A%A8%E9%87%8D%E5%90%AFnode.html"/>
-    <id>http://renxiaoyuan.gitee.io/node每日进阶--使用supervisor自动重启node.html</id>
+    <link href="https://webofrxy.github.io/node%E6%AF%8F%E6%97%A5%E8%BF%9B%E9%98%B6--%E4%BD%BF%E7%94%A8supervisor%E8%87%AA%E5%8A%A8%E9%87%8D%E5%90%AFnode.html"/>
+    <id>https://webofrxy.github.io/node每日进阶--使用supervisor自动重启node.html</id>
     <published>2019-02-20T12:06:08.133Z</published>
     <updated>2018-06-26T13:47:47.435Z</updated>
     
@@ -313,14 +362,14 @@
     </summary>
     
     
-      <category term="node" scheme="http://renxiaoyuan.gitee.io/tags/node/"/>
+      <category term="node" scheme="https://webofrxy.github.io/tags/node/"/>
     
   </entry>
   
   <entry>
     <title>git使用方法总结</title>
-    <link href="http://renxiaoyuan.gitee.io/git%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.html"/>
-    <id>http://renxiaoyuan.gitee.io/git使用方法总结.html</id>
+    <link href="https://webofrxy.github.io/git%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95%E6%80%BB%E7%BB%93.html"/>
+    <id>https://webofrxy.github.io/git使用方法总结.html</id>
     <published>2019-02-20T12:06:08.131Z</published>
     <updated>2018-06-26T13:47:47.434Z</updated>
     
@@ -341,14 +390,14 @@
     </summary>
     
     
-      <category term="node" scheme="http://renxiaoyuan.gitee.io/tags/node/"/>
+      <category term="node" scheme="https://webofrxy.github.io/tags/node/"/>
     
   </entry>
   
   <entry>
     <title>express中multer的使用</title>
-    <link href="http://renxiaoyuan.gitee.io/express%E4%B8%ADmulter%E7%9A%84%E4%BD%BF%E7%94%A8.html"/>
-    <id>http://renxiaoyuan.gitee.io/express中multer的使用.html</id>
+    <link href="https://webofrxy.github.io/express%E4%B8%ADmulter%E7%9A%84%E4%BD%BF%E7%94%A8.html"/>
+    <id>https://webofrxy.github.io/express中multer的使用.html</id>
     <published>2019-02-20T12:06:08.129Z</published>
     <updated>2018-06-26T13:47:47.433Z</updated>
     
@@ -367,7 +416,7 @@
     </summary>
     
     
-      <category term="node" scheme="http://renxiaoyuan.gitee.io/tags/node/"/>
+      <category term="node" scheme="https://webofrxy.github.io/tags/node/"/>
     
   </entry>
   
