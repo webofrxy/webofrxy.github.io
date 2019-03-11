@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://renxiaoyuan.coding.me/"/>
-  <updated>2019-03-11T01:54:43.824Z</updated>
+  <updated>2019-03-07T14:47:32.386Z</updated>
   <id>https://renxiaoyuan.coding.me/</id>
   
   <author>
@@ -15,28 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Docker for windows 教程</title>
-    <link href="https://renxiaoyuan.coding.me/yuque/Docker%20for%20windows%20%E6%95%99%E7%A8%8B.html"/>
-    <id>https://renxiaoyuan.coding.me/yuque/Docker for windows 教程.html</id>
-    <published>2019-03-11T01:52:21.000Z</published>
-    <updated>2019-03-11T01:54:43.824Z</updated>
-    
-    <content type="html"><![CDATA[<p><a name="e655a410"></a></p><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p><img src="https://cdn.nlark.com/yuque/0/2019/png/241017/1552269250334-475dff69-41b2-49b0-a9b2-6548bb0a089e.png#align=left&amp;display=inline&amp;height=514&amp;name=docker%E6%8C%89%E7%85%A7.png&amp;originHeight=744&amp;originWidth=1080&amp;size=60585&amp;status=done&amp;width=746" alt="docker按照.png"><br><img src="https://cdn.nlark.com/yuque/0/2019/png/241017/1552269195295-f4870591-1eea-47fe-9534-7bcf3f356278.png#align=left&amp;display=inline&amp;height=514&amp;name=docker%E5%AE%89%E8%A3%85.png&amp;originHeight=744&amp;originWidth=1080&amp;size=28960&amp;status=done&amp;width=746" alt="docker安装.png"></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;&lt;a name=&quot;e655a410&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;h2 id=&quot;安装&quot;&gt;&lt;a href=&quot;#安装&quot; class=&quot;headerlink&quot; title=&quot;安装&quot;&gt;&lt;/a&gt;安装&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://cdn.nlark.com/yuque/0
-      
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>hexo安装</title>
